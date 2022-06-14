@@ -1,6 +1,6 @@
 keras
 keras-models
 nltk
-Flask
+flask
 tensorflow-cpu
 gunicorn
