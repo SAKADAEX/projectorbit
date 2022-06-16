@@ -63,7 +63,7 @@ def chatbot_response(msg):
 from flask import Flask, render_template, request
 
 app = Flask(__name__,template_folder='template')
-app.static_folder = 'static''
+app.static_folder = 'static'
 
 @app.route("/")
 def home():
